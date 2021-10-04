@@ -1,0 +1,35 @@
+.box {
+	background-color: blue;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	border: 2px solid white;
+}
+.parent {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto auto auto;
+    /*grid-template-rows: 150px 200px 300px;*/
+    /*grid-template-areas:*/
+   }
+.item-1 {
+    grid-row: span 2;
+}
+.item-2 {
+	grid-row: span 2;
+}
+.item-3 {
+	grid-row: span 2;;
+}
+.item-4 {
+	grid-row: span 2;
+}
+.item-5{
+	grid-column: span 3;
+}
+.item-6{
+	grid-column: span 3;
+}
+.item-6{
+	grid-column: span 3;
+}
